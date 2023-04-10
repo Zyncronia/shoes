@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/bg1.png);
+    background-size: cover;
+    background-position:center;
+}
+
+section nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgb(0, 0, 0 ,0.6);
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+section nav .logo{
+    font-size: 35px;
+    color: magenta;
+    margin: 5px 0;
+    position: relative;
+    left: -4%;
+
+}
+
+section nav .logo span{
+    color: #6c14d0;
+    text-decoration: dotted;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav ul li{
+    display: inline-block;
+}
+
+section nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+section nav ul li a:hover{
+    color: #c72092;
+}
+
+section nav .icons{
+    margin: 0 4px;
+    font-size: 18px;
+}
+
+.fa-heart:hover,.fa-cart-shopping:hover,.fa-user:hover{
+    color: #c72092;
+    cursor: pointer;
+    
+}
+
+.menu_centralizado{
+    /* background-color: red; */
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+
+
